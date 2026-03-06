@@ -2,6 +2,7 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { LanguageProvider } from './lib/i18n';
+import {Analytics} from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'SereneHaven Suite - Retirement Management',
@@ -24,6 +25,7 @@ export default function RootLayout({
         <LanguageProvider>
           {children}
         </LanguageProvider>
+          <Analytics />
       </body>
     </html>
   );
