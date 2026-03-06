@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -10,9 +9,11 @@ import {
   Plus, 
   ArrowUpRight, 
   ArrowDownRight,
-  MoreHorizontal
+  MoreHorizontal,
+  AlertCircle
 } from 'lucide-react';
 import { useTranslation } from '@/app/lib/i18n';
+import { cn } from '@/lib/utils';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';

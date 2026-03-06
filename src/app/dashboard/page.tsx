@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -12,6 +11,7 @@ import {
   Calendar as CalendarIcon 
 } from 'lucide-react';
 import { useTranslation } from '@/app/lib/i18n';
+import { cn } from '@/lib/utils';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { 
