@@ -1,0 +1,29 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-home",
+      "description": "A serene retirement home garden with seniors enjoying the sun",
+      "imageUrl": "https://picsum.photos/seed/serene1/1200/800",
+      "imageHint": "serene retirement garden"
+    },
+    {
+      "id": "resident-1",
+      "description": "Happy senior woman reading a book",
+      "imageUrl": "https://picsum.photos/seed/res1/400/400",
+      "imageHint": "senior woman reading"
+    },
+    {
+      "id": "resident-2",
+      "description": "Senior man gardening",
+      "imageUrl": "https://picsum.photos/seed/res2/400/400",
+      "imageHint": "senior man gardening"
+    },
+    {
+      "id": "staff-1",
+      "description": "Professional nurse smiling",
+      "imageUrl": "https://picsum.photos/seed/staff1/400/400",
+      "imageHint": "professional nurse"
+    }
+  ]
+}
